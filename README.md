@@ -1,2 +1,65 @@
-# linux-commands
-Cheatsheet of Linux commands
+# Linux commands (and some other stuff)
+
+### File manipulation
+
+Moving files from one location to another. For example, if you wanted to move *file1* to the *test* directory
+```
+mv file1 test
+```
+
+Renaming files or directories. For example, if you wanted to rename *file1* to the *file2*
+```
+mv file1 file2
+```
+
+*Note: The Linux system will not prevent you from certain destructive actions. If you are renaming a file and choose a name that already exists, the previous file will be overwritten by the file you are moving. There is no way to recover the previous file if you accidentally overwrite it.*
+
+To delete a regular file
+```
+rm file4
+```
+
+To delete an entire *empty* directory
+```
+rmdir testing
+```
+
+To delete a directory that contains files or other assets
+```
+rm -r testing
+```
+
+Unzip a compressed file
+```
+sudo unzip file_name.zip
+```
+
+Moving all files from child directory to parent directory. For example, the directory structure looks like this: /public_html/myfiles/. Say you want to move all files (including dot files like .htaccess) from myfiles up one level to public_html. While in public_html, run the following:
+```
+sudo mv myfiles/* myfiles/.* .
+```
+
+
+### SFTP
+
+Pushing file from local to remote. 
+```
+put localFile
+```
+
+Pushing entire local directory to remote. 
+```
+put -r localDirectory
+```
+
+### Connecting to VPS
+
+SSH
+```
+ssh username@yourIpAddress
+```
+
+SFTP
+```
+sftp username@yourIpAddress
+```
