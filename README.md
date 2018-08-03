@@ -29,6 +29,11 @@ To delete a directory that contains files or other assets
 rm -r testing
 ```
 
+To delete all files and sub directories within a directory: 
+```
+sudo rm -r public_html/*
+```
+
 Unzip a compressed file
 ```
 sudo unzip file_name.zip
@@ -50,6 +55,11 @@ put localFile
 Pushing entire local directory to remote. 
 ```
 put -r localDirectory
+```
+
+### Restart Apache
+```
+sudo service apache2 restart
 ```
 
 ### Connecting to VPS
