@@ -64,7 +64,7 @@ sudo service apache2 restart
 
 ### Restart Nginx
 ```
-service nginx restart
+sudo service nginx restart
 ```
 
 ### Connecting to VPS
