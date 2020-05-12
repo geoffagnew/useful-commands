@@ -62,6 +62,11 @@ put -r localDirectory
 sudo service apache2 restart
 ```
 
+### Restart Nginx
+```
+service nginx restart
+```
+
 ### Connecting to VPS
 
 SSH
