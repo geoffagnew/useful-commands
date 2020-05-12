@@ -44,6 +44,11 @@ Moving all files from child directory to parent directory. For example, the dire
 sudo mv myfiles/* myfiles/.* .
 ```
 
+### Permissions
+Change permissions of web files to the www-data group
+```
+sudo chown -R yourname:www-data nameofdirectory
+```
 
 ### SFTP
 
