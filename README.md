@@ -62,6 +62,11 @@ Pushing entire local directory to remote.
 put -r localDirectory
 ```
 
+Get file from remote.
+```
+get remoteFile
+```
+
 ### Restart Apache
 ```
 sudo service apache2 restart
