@@ -1,4 +1,11 @@
-# Linux commands (and some other stuff)
+# Linux commands and basics
+
+### Directory basics
+`etc/` contains system wide configuration files.
+
+`var/` contains changeable or variable system information. For example, system logs and logs for other software.
+
+`mnt/` or `media/` is where external drives are mounted.
 
 ### File manipulation
 
