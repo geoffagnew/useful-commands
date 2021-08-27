@@ -52,6 +52,9 @@ sudo mv myfiles/* myfiles/.* .
 ```
 
 ### Permissions
+Check permissions
+```ls -l [file_name]```
+
 Change permissions of web files to the www-data group
 ```
 sudo chown -R yourname:www-data nameofdirectory
