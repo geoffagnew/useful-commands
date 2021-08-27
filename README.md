@@ -53,7 +53,9 @@ sudo mv myfiles/* myfiles/.* .
 
 ### Permissions
 Check permissions
-```ls -l [file_name]```
+```
+ls -l [file_name]
+```
 
 Change permissions of web files to the www-data group
 ```
